@@ -1,0 +1,53 @@
+{
+   "id":"chromaticcompass-totgb1-thedigsite",
+   "name":"chromaticcompass-totgb1-thedigsite",
+   "title":"Tomb of the Golden Beetle - The Dig Site",
+   "description":"The opening module for Tomb of the Golden Beetle. *add more text here*.",
+   "version":"1.0.0",
+   "authors":[
+      {
+         "name":"LeChuck",
+         "discord":"LeChuck#7639",
+         "url":"https://www.mywebsite.com/"
+      }
+   ],
+   "minimumCoreVersion":"0.8.6",
+   "compatibleCoreVersion":"9",
+   "compatibility":{
+      "minimum":"0.8.6",
+      "verified":"10"
+   },
+   "packs":[
+      {
+         "name":"creatures",
+         "label":"totbg1-thedigsite-Creatures",
+         "path":"./packs/creatures.db",
+         "entity":"Actor",
+         "type":"Actor",
+         "system":"dnd5e"
+      },
+      {
+         "name":"scenes",
+         "label":"totbg1-thedigsite-Scenes",
+         "path":"./packs/scenes.db",
+         "entity":"Scene",
+         "type":"Scene"
+      },
+      {
+         "name":"journal-entries",
+         "label":"totbg1-thedigsite-Journal Entries",
+         "path":"./packs/journal-entries.db",
+         "entity":"JournalEntry",
+         "type":"JournalEntry"
+      },
+      {
+         "name":"playlists",
+         "label":"totbg1-thedigsite-Playlists",
+         "path":"./packs/playlists.db",
+         "entity":"Playlist",
+         "type":"Playlist"
+      }
+   ],
+   "manifest":"https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/module.json",
+   "download":"https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/my-content-module.zip"
+}
