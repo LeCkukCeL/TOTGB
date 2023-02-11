@@ -1,0 +1,45 @@
+{   
+   "name": "ChromaticCompass_TOTGB_1_The_Dig_Site",   
+   "title": "TOTGB 1 - The Dig Site",   
+   "description": "The Module for part 1 of Tomb of the Golden Beetle. The Dig Site",   
+   "authors": "GarethWiecko",
+   "version": "1.0.0",
+   "minimumCoreVersion": "10.291",
+   "compatibleCoreVersion":"10.291",
+	"packs": [
+    {
+      "name": "items",
+      "label": "TOTGB - The Dig Site - Items",
+      "path": "packs/items.db",
+      "type": "Item",
+	  "system": "dnd5e",
+      "module": "ChromaticCompass_TOTGB_1_The_Dig_Site"
+	  
+    },
+    {
+      "name": "playlist",
+      "label": "TOTGB - The Dig Site - Audio",
+      "path": "packs/playlist.db",
+      "type": "Playlist",
+	  "system": "dnd5e",
+      "module": "ChromaticCompass_TOTGB_1_The_Dig_Site"
+    },
+    {
+      "name": "scenes",
+      "label": "TOTGB - The Dig Site - Scenes",
+      "path": "packs/scenes.db",
+      "type": "Scene",
+	  "system": "dnd5e",
+      "module": "ChromaticCompass_TOTGB_1_The_Dig_Site"
+    },
+	{
+      "name": "journal",
+      "label": "TOTGB - The Dig Site - Journal",
+      "path": "packs/journal.db",
+      "type": "JournalEntry",
+	  "system": "dnd5e",
+      "module": "ChromaticCompass_TOTGB_1_The_Dig_Site"
+	  
+    }
+  ]
+ }
